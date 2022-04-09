@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+body {
+    font-family:'Roboto';
+    padding:3px;
+}
+
+nav img {
+    height:1.5rem;
+}
+
+.card {
+    border: 1px solid #DDDDDD;
+}
+.card-body {
+    font-weight: 300;
+    color: #212529;
+    padding-top: 0.4rem;
+    padding-top: 0.4rem;
+}
+
+.card-body .producto {
+    font-size: 20px;
+}
+
+.card-body .empresa {
+    font-size: 16px;
+    color: #707070;
+}
+
+.card-body .direccion {
+    font-size: 13px;
+    color: #707070;
+}
+
+.card hr {
+    width:90%;
+    margin:auto;
+}
+
+.card-body .precio-normal {
+    font-size: 16px;
+    color: #707070;
+    text-align: right;
+    bottom:0;
+}
+
+.card-body .precio-oferta {
+    font-size: 20px;
+    color: #28A745;
+    font-weight: 500;
+    text-align: right;
+    bottom:0;
+}
+
+form label {
+    color:#ffffff;
+    font-size: 21px;
+}
+
+.form-control {
+    color:#707070;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+footer img {
+    height:1.5rem;
+}
+
+footer {
+    text-align: center;
+    color:#707070;
+    font-weight: 300;
+}
