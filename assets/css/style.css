@@ -38,7 +38,7 @@ nav {
     font-size: 16pt;
     padding-left: 10%;
     padding-right: 10%;
-    background: transparent;
+    background-color: #49a9ab;
     width: 100%;
     overflow: hidden;
 
@@ -46,13 +46,9 @@ nav {
 
 .navbar {
     overflow: hidden;
-    background-color: #333;
     position: fixed;
-    /* Set the navbar to fixed position */
     top: 0;
-    /* Position the navbar at the top of the page */
     width: 100%;
-    /* Full width */
     z-index: 9;
 }
 
@@ -61,11 +57,12 @@ nav img {
 }
 
 /*CARRUSEL*/
+/*NO USADO*/
 
-/*QN SOMOS*/
+/*SEC QN SOMOS*/
 
 .sec-quienes-somos-icon {
-    background-color: rgb(13, 202, 240);
+    background-color: #49a9ab;
     color: #FFFFFF;
     text-align: center;
     font-size: 1.5rem;
@@ -79,7 +76,7 @@ nav img {
     border-top: 1px solid white;
     opacity: 0.1;
 }
-
+/* OCULTAR SEC QUIENES SOMOS EN PANTALLAS PEQUEÑAS*/
 @media only screen and (max-width: 991px) {
     #sec-quienes-somos {
         display: none;
@@ -90,9 +87,9 @@ nav img {
     }
 }
 
-/*DESTACADOS*/
+/*SEC DESTACADOS*/
 .card {
-    background-color: rgb(13, 202, 240);
+    background-color: #49a9ab;
     border: 1px solid white;
     height: 100%;
     width: auto;
@@ -104,7 +101,7 @@ nav img {
     width: auto;
 }
 
-/*CONTACTO*/
+/*SEC CONTACTO*/
 
 #sec-contacto {
     text-align: left;
@@ -112,9 +109,10 @@ nav img {
 
 #sec-contacto button {
     color: #FFFFFF;
-    background-color: rgb(13, 202, 240);
+    background-color: #49a9ab;
 }
 
+/*REDUCIR MARGEN PARA DISPOSITIVOS PEQUEÑOS*/
 @media only screen and (max-width: 768px) {
     .marginado {
         margin-left: 1rem;
@@ -129,7 +127,7 @@ nav img {
 
 /*FOOTER*/
 footer {
-    background-color: rgb(13, 202, 240);
+    background-color: #49a9ab;
     text-align: center;
     max-height: 150px;
     position: relative;
