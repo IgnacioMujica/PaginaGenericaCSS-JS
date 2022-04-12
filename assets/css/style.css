@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500;700&family=Lobster&display=swap');
+
+body {
+    font-family: 'Cabin';
+    background-color: #000000;
+    color: #ffffffde;
+
+}
+
+hr {
+    border-top: 1px solid white;
+    opacity: 0.1;
+    max-width: 95%;
+    margin: auto;
+}
+
+h4 {
+    text-align: center;
+    margin-top: -64px;
+    padding-top: 74px;
+}
+
+
+i {
+    font-size: 2.5rem;
+    color:#FFFFFF;
+}
+
+.marginado {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+
+/*NAV*/
+nav {
+    color: #FFFFFF;
+    font-size: 16pt;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: transparent;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    z-index: 9;
+}
+
+nav img {
+    max-height: 3rem;
+}
+
+/*CARRUSEL*/
+
+/*QN SOMOS*/
+
+.sec-quienes-somos-icon {
+    background-color: rgb(13, 202, 240);
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    border-style: outset;
+    border-width: 1px;
+    padding: 0px;
+}
+
+.sec-quienes-somos hr {
+    border-top: 1px solid white;
+    opacity: 0.1;
+}
+
+@media only screen and (max-width: 991px) {
+    #sec-quienes-somos {
+        display: none;
+    }
+
+    #link-quienes-somos {
+        display: none;
+    }
+}
+
+/*DESTACADOS*/
+.card {
+    background-color: rgb(13, 202, 240);
+    border: 1px solid white;
+    height: 100%;
+    width: auto;
+    margin-top: 5px;
+}
+
+.card-img-top {
+    height: auto;
+    width: auto;
+}
+
+/*CONTACTO*/
+
+#sec-contacto {
+    text-align: left;
+}
+
+#sec-contacto button {
+    color: #FFFFFF;
+    background-color: rgb(13, 202, 240);
+}
+
+@media only screen and (max-width: 768px) {
+    .marginado {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+.active img {
+    max-width: fit-content;
+
+}
+
+/*FOOTER*/
+footer {
+    background-color: rgb(13, 202, 240);
+    text-align: center;
+    max-height: 150px;
+    position: relative;
+
+}
+
+footer h1 {
+    font-family: 'Lobster';
+    size: 37px;
+    color: #FFFFFF;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+footer span {
+    font-size: 2.2rem;
+    font-weight: 100;
+}
