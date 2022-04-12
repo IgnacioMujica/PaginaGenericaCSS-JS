@@ -1,4 +1,5 @@
 Hola. Gracias por leer el readme para la prueba "Turismo Chile".
+
 La página utiliza las siguientes versiones:
 Bootstrap 5.1.3.
 Jquery 3.6.0
