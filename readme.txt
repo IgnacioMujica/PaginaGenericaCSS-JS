@@ -1,7 +1,7 @@
 Hola. Gracias por leer el readme para la prueba "Turismo Chile".
 
 Link a Bootstrap Pages:
-https://marlborogold1988.github.io/PruebaTurismo/
+https://ignaciomujica.github.io/PruebaTurismo/
 
 La página utiliza las siguientes versiones:
 Bootstrap 5.1.3.
